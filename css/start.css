@@ -30,7 +30,7 @@
   height:16%;
   background-color:black;
   position:absolute;
-  opacity:0.7;
+  opacity:0.6;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -62,7 +62,7 @@ h2{
 }
 
 
-
+/*
 .logo{
   position: fixed;
   left:41%;
@@ -90,7 +90,7 @@ h2{
   top:33%;
 
 }
-
+*/
 
 
 

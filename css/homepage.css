@@ -3,50 +3,188 @@
 }
 
 body{
-  background-color:black;
+  color:black;
+  background-image: url("https://www.cgvray.com/wp-content/uploads/2017/11/macintosh-hduserskentdufaultdesktopcgvray-outr-2-720x380.jpeg");
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 1280px 750px;
+  font-family: "Avenir";
+}
+
+
+#bg{
+  height:20%;
+  margin-right:30em;
+  position:absolute;
+  opacity:0.9;
+  flex-direction: row;
+  top:0;
+  left:0;
+}
+
+#About_Me_Font p{
+  font-size: 7pt;
+  color: black;
+}
+#About_Me{
+  width: 30em;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  margin:auto;
+  margin-left:40em;
+  margin-top:20em;
+  background-color:white;
+  opacity: 0.8;
+  color:black;
+  padding-left:2em;
+  font-family: "Avenir";
+  padding-right:2em;
+  padding-bottom:1em;
+  max-height: 50%;
+}
+
+#P1
+{
+  width: 30em;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  padding-top:20em;
+}
+
+
+
+
+.nav-2of2{
+  text-decoration: none;
+  background-color: black;
+  width:100%;
+  
+}
+
+a.nav {
+    text-decoration: none;
+    padding: 15px 80px;
+    width:100%;
+    text-align: left;
+    margin-left:20px;
+    padding-right:80px;
+}
+
+#main-nav {
+
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Times New Roman";
+    height: 100%;
+    line-height: 100%;
+    margin-top:-8px;
+}
+nav a:link {
+  color:white;
+}
+nav a:hover {
+  color:white;
+  text-decoration: none;
+  background-color: darkgrey;
+}
+a:visited {
   color:white;
 }
 
-.About_Me{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    display:block;
- 
-    width:auto;
+nav a:focus {
 
+  text-decoration: none;
+  color:white;
+}
 
-}
-.About_Me_Position{
-  width:auto;
-}
-p{
-    font-family: "Kiona";
+.nav-1of2 {
+    display: inline-block;
+    height: 100%;
+    padding: 16px ;
 
 }
 
 
+
+@media (max-width:68em){
+
+  #About_Me{
+  margin-top:15em;
+  margin-left:6em;
+  padding-right:3em;
+  width: 60%;
+  display: flex;
+
+  }
+  a.nav {
+
+    padding: 15px 80px;
+    padding-left: 10px;
+}
+
+}
+
+
+@media (max-width:150em){
+
+
+    nav{
+        width:100%; 
+    }
+
+}
+
+
+
+
+@media (max-width:53em){
+
+
+    .nav{
+        display:block;
+        text-align: left;
+        width:8em;
+        flex-direction: column;
+    }
+    a.nav {
+    margin-bottom:5px;
+    padding-right:20px;
+    padding-left:40px;
+} 
+    
+
+}
+
+
+@media (max-width:40em){
+
+    .nav{
+      display:block;
+      text-align: left;
+      width:8em;
+      flex-direction: column;
+        }
+    a.nav {
+      margin-bottom:5px;
+      padding-right:20px;
+}
+
+
+}
 
 
 @media (max-width:30em){
+    .nav{
+        display:block;
+        text-align: left;
+        width:8em;
+        flex-direction: column;
+    }
 
-  .black_bg{
-    width:30em;
-    height:16%;
-  }
-  .My_Name{
 
-  font-size:8pt;
-  }
-
-  h1{
-
-  font-size: 18pt;
-  padding-right:0.8em;
-
-  }
 }
-
 
