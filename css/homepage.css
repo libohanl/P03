@@ -117,7 +117,7 @@ nav a:focus {
 
   #About_Me{
   margin-top:15em;
-  margin-left:6em;
+  margin-left:16em;
   padding-right:3em;
   width: 60%;
   display: flex;
@@ -157,8 +157,11 @@ nav a:focus {
     margin-bottom:5px;
     padding-right:20px;
     padding-left:40px;
-} 
-    
+    } 
+    #About_Me{
+    margin-top:5em;
+    margin-left:6em;
+    }
 
 }
 
@@ -175,8 +178,9 @@ nav a:focus {
       margin-bottom:5px;
       padding-right:20px;
 }
-
-
+  #About_Me{
+  margin-top:5em;
+}
 }
 
 
