@@ -10,7 +10,9 @@ body{
   background-size: 1280px 750px;
   font-family: "Avenir";
 }
-
+h3{
+  color:black;
+}
 
 #bg{
   height:20%;
@@ -33,9 +35,9 @@ body{
   flex-direction:column;
   margin:auto;
   margin-left:40em;
-  margin-top:20em;
+  margin-top:15em;
   background-color:white;
-  opacity: 0.8;
+  opacity: 0.7;
   color:black;
   padding-left:2em;
   font-family: "Avenir";
@@ -78,21 +80,22 @@ a.nav {
     display: block;
     text-decoration: none;
     color: white;
-    font-family: "Times New Roman";
+    font-family: "Kiona";
+    font-size:9pt;
     height: 100%;
     line-height: 100%;
     margin-top:-8px;
 }
 nav a:link {
-  color:white;
+  color:orange;
 }
 nav a:hover {
   color:white;
   text-decoration: none;
-  background-color: darkgrey;
+  background-color: orange;
 }
 a:visited {
-  color:white;
+  color:orange;
 }
 
 nav a:focus {
@@ -104,7 +107,7 @@ nav a:focus {
 .nav-1of2 {
     display: inline-block;
     height: 100%;
-    padding: 16px ;
+    padding: 20px ;
 
 }
 
@@ -180,9 +183,10 @@ nav a:focus {
 @media (max-width:30em){
     .nav{
         display:block;
-        text-align: left;
+        text-align: center;
         width:8em;
         flex-direction: column;
+
     }
 
 
