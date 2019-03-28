@@ -3,69 +3,14 @@
 }
 
 body{
+  background-color:black;
   color:black;
-  background-image: url("https://www.cgvray.com/wp-content/uploads/2017/11/macintosh-hduserskentdufaultdesktopcgvray-outr-2-720x380.jpeg");
-  background-position: top; /* Center the image */
+  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/37634811_10160516282045368_3396195267043655680_n.jpg?_nc_cat=106&_nc_ht=scontent-sea1-1.xx&oh=6d1505790437f22295b53735c031cada&oe=5D09CB58");
+  background-position: 20% 17%; ; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 1280px 750px;
+  background-size: 1350px 800px;
   font-family: "Avenir";
 }
-h3{
-  color:black;
-}
-
-.haida_photo{
-
-  margin-left:-45px;
-
-
-}
-
-.About_Me_Font p{
-  font-size: 7pt;
-  color: black;
-}
-.Haida_Font {
-  border-bottom: 2px dotted;
-  border-top: 2px dotted;
-  font-size: 7pt;
-  color: black;
-}
-.haida_photo img{
-    width:105%;
-  }
-#About_Me{
-  width: 30em;
-  display: flex;
-  justify-content: center;
-  flex-direction:column;
-  margin:auto;
-  margin-left:40em;
-  margin-top:15em;
-  background-color:white;
-  opacity: 0.7;
-  color:black;
-  padding-left:2em;
-  font-family: "Avenir";
-  padding-right:2em;
-  padding-bottom:1em;
-  max-height: 50%;
-}
-
-#P1
-{
-  margin-top:5em;
-  margin-bottom:5em;
-  margin-left:25em;
-  width: 30em;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  max-height: 50%;
-  flex-direction:column;
-  padding-top:20em;
-}
-
 
 
 
@@ -132,20 +77,13 @@ nav a:focus {
   padding-right:3em;
   width: 60%;
   display: flex;
-  }
 
-  #P1{
-  margin-left:16em;
-  padding-right:3em;
-  width: 60%;
-  display: flex;
   }
-
   a.nav {
-  padding: 15px 80px;
-  padding-left: 6px;
-  }
 
+    padding: 15px 80px;
+    padding-left: 10px;
+}
 
 }
 
@@ -180,10 +118,6 @@ nav a:focus {
     margin-top:5em;
     margin-left:6em;
     }
-    #P1{
-    margin-top:5em;
-    margin-left:6em;
-    }
 
 }
 
@@ -203,22 +137,17 @@ nav a:focus {
   #About_Me{
   margin-top:5em;
 }
-  #P1{
-  margin-top:-2em;
-  margin-bottom:5em;
-    }
 }
 
 
 @media (max-width:30em){
-    .nav-1of2{
+    .nav{
         display:block;
-        text-align: left;
-        width:18em;
+        text-align: center;
+        width:8em;
         flex-direction: column;
-        margin-left:8em;
+
     }
 
 
 }
-
