@@ -9,12 +9,13 @@ body{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 1280px 750px;
   font-family: "Avenir";
-}
+  background-color: black;
+} 
 h3{
   color:black;
 }
 
-.haida_photo{
+.photo{
 
   margin-left:-45px;
 
@@ -29,9 +30,9 @@ h3{
   border-bottom: 2px dotted;
   border-top: 2px dotted;
   font-size: 7pt;
-  color: black;
+  color: white;
 }
-.haida_photo img{
+.photo img{
     width:105%;
   }
 #About_Me{
@@ -52,7 +53,7 @@ h3{
   max-height: 50%;
 }
 
-#P1
+.P1
 {
   margin-top:5em;
   margin-bottom:5em;
@@ -66,7 +67,19 @@ h3{
   padding-top:20em;
 }
 
+.P2{
 
+  margin-bottom:5em;
+  margin-left:25em;
+  width: 30em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-height: 50%;
+  flex-direction:column;
+  padding-top:10em;
+
+}
 
 
 .nav-2of2{
@@ -134,7 +147,14 @@ nav a:focus {
   display: flex;
   }
 
-  #P1{
+  .P1{
+  margin-left:16em;
+  padding-right:3em;
+  width: 60%;
+  display: flex;
+  }
+
+  .P2{
   margin-left:16em;
   padding-right:3em;
   width: 60%;
@@ -180,7 +200,11 @@ nav a:focus {
     margin-top:5em;
     margin-left:6em;
     }
-    #P1{
+    .P1{
+    margin-top:5em;
+    margin-left:6em;
+    }
+    .P2{
     margin-top:5em;
     margin-left:6em;
     }
@@ -203,7 +227,11 @@ nav a:focus {
   #About_Me{
   margin-top:5em;
 }
-  #P1{
+  .P1{
+  margin-top:-2em;
+  margin-bottom:5em;
+    }
+  .P2{
   margin-top:-2em;
   margin-bottom:5em;
     }

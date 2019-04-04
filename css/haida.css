@@ -5,13 +5,14 @@
 body{
   background-color:black;
   color:black;
-  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/37634811_10160516282045368_3396195267043655680_n.jpg?_nc_cat=106&_nc_ht=scontent-sea1-1.xx&oh=6d1505790437f22295b53735c031cada&oe=5D09CB58");
-  background-position: 20% 17%; ; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 1350px 800px;
+
   font-family: "Avenir";
+  
 }
 
+.haida_photo img{
+    width:100%;
+  }
 
 
 .nav-2of2{
